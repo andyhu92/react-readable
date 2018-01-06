@@ -1,0 +1,93 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  text-align:center;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.required label:after{
+  content:"*";
+  color:red;
+  margin-left:5px;
+}
+
+.comment-list{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px 0px;
+    border-radius: 15px;
+}
+
+.post-form{
+  max-width:700px;
+}
+
+.time{
+  color:gray;
+}
+
+.comment:not(:last-child){
+  border-bottom:1px solid lightgray;
+  margin-bottom:10px;
+}
+
+span.score{
+  margin:10px;
+}
+
+.vote-control{
+  margin-top:15px;
+}
+
+.backBtn, .submit{
+  margin-top:10px;
+}
+
+svg{
+  cursor:pointer;
+}
+
+.submit{
+  margin-right:20px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.trash-icon, .pencil-icon{
+  margin-left:10px;
+}
+
+.post-list-container, .comment-list{
+  max-width:700px;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.add-post-btn{
+  margin-left:15px !important;
+}
+
+.dropdown{
+  margin-bottom: 10px;
+}
+
+.btn:not(:first-child){
+  margin-left:15px;
+}
